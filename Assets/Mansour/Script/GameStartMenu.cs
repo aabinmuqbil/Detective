@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameStartMenu : MonoBehaviour
 {
@@ -49,7 +50,7 @@ public class GameStartMenu : MonoBehaviour
             f++;
         }
 
-       
+        SceneManager.LoadScene("MansourScene");
 
 
     }
@@ -61,19 +62,7 @@ public class GameStartMenu : MonoBehaviour
         backButton.SetActive(false);
 
 
-        foreach (var item in all)
-        {
-            Debug.Log(item);
-            item.SetActive(true);
-            f++;
-
-        }
-        foreach (var item in s)
-        {
-            Debug.Log(item);
-            item.SetActive(false);
-
-        }
+      
 
     }
     public void EnableOption()
