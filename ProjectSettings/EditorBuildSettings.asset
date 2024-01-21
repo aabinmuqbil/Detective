@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Mansour/Scence/MansourScene.unity
     guid: 964f5f758a8ccef479254b2b9f3072f1
+  - enabled: 1
+    path: Assets/Mansour/Scence/UI.unity
+    guid: d333da5b1dd5d644ab5ce9a0c71ec307
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 83144993c370ce44c80bf5b706dc73ba,
       type: 2}
