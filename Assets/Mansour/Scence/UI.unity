@@ -601,21 +601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have two main Roles the chaser and the runner, chaser have
-
-    power
-    up to help him catch the runners before the timer end to win
-
-    the game, the
-    runners have two main things to Care about which is
-
-    how many candy they
-    have so they offer the children to don''t tell
-
-    about their place and to
-    hide till the timer finish to win, the runners
-
-    have one power up.'
+  m_text: the left control is to move.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4058,9 +4044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have two main Roles the chaser and the runner
-
-'
+  m_text: You have to know what cause the death of victim and who's the offender
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
