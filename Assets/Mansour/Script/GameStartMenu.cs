@@ -59,10 +59,21 @@ public class GameStartMenu : MonoBehaviour
 
     public void EnableMainMenu()
     {
+       
+        foreach (var item in all)
+        {
+            Debug.Log(item);
+            item.SetActive(true);
+            f++;
+        }
+        foreach (var item in s)
+        {
+            Debug.Log(s);
+            item.SetActive(false);
+            f++;
+        }
         backButton.SetActive(false);
 
-
-      
 
     }
     public void EnableOption()

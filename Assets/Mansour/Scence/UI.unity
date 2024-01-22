@@ -1650,10 +1650,11 @@ MonoBehaviour:
   - {fileID: 964687150}
   - {fileID: 1309715672}
   - {fileID: 715960221}
+  - {fileID: 2136151311}
   backButton: {fileID: 1220611867}
   AText: {fileID: 2041948295}
   HText: {fileID: 167404405}
-  Set: {fileID: 0}
+  Set: {fileID: 501252841}
   s:
   - {fileID: 501252841}
   - {fileID: 167404405}
@@ -1664,6 +1665,8 @@ MonoBehaviour:
   - {fileID: 964687150}
   - {fileID: 1309715672}
   - {fileID: 1220611867}
+  - {fileID: 2136151311}
+  - {fileID: 715960221}
 --- !u!82 &444877851
 AudioSource:
   m_ObjectHideFlags: 0
