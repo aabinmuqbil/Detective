@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 335440162}
   - component: {fileID: 335440161}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: FloorAnker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -610,7 +610,7 @@ GameObject:
   - component: {fileID: 648810593}
   - component: {fileID: 648810592}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: floorA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -974,7 +974,7 @@ GameObject:
   - component: {fileID: 932350241}
   - component: {fileID: 932350240}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: fake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,7 +1106,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4090221840526957868, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090221840526957868, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
       propertyPath: m_RayInteractors.Array.data[0].m_Interactor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090221840526957868, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RayInteractors.Array.data[1].m_Interactor
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4090221840526957868, guid: 895f6f3c2d334633b5800312285058d2,
