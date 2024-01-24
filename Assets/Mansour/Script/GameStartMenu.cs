@@ -15,6 +15,7 @@ public class GameStartMenu : MonoBehaviour
     public GameObject backButton;
     public GameObject AText;
     public GameObject HText;
+    public GameObject TText;
     public GameObject Set;
 
 
@@ -123,4 +124,25 @@ public class GameStartMenu : MonoBehaviour
         backButton.SetActive(true);
         Set.SetActive(true);
     }
+    public void tSEt()
+    {
+        foreach (var item in all)
+        {
+            Debug.Log(item);
+            item.SetActive(false);
+            f++;
+
+        }
+        backButton.SetActive(true);
+        TText.SetActive(true);
+    }
+    public void Vic()
+    {
+        SceneManager.LoadScene("Victory");
+    }
+    public void los()
+    {
+        SceneManager.LoadScene("Gameover");
+    }
 }
+
