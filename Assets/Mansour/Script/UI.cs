@@ -7,7 +7,7 @@ public class UI : MonoBehaviour
 {
     public void Map1()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("Test");
     }
     public void Eixit()
     {

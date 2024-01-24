@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MainScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Mansour/Scence/MansourScene.unity
     guid: 964f5f758a8ccef479254b2b9f3072f1
   - enabled: 1
@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Mansour/Scence/Victory.unity
     guid: d6714e345be3c1e4b8f8832ef7890519
+  - enabled: 1
+    path: Assets/Abdullah/TestAbdullah.unity
+    guid: f9fb95ca7770bbe45a1aa407305eabb0
+  - enabled: 1
+    path: Assets/Mansour/Scence/Test.unity
+    guid: cdcf42487b5814049829cc899bed115a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 83144993c370ce44c80bf5b706dc73ba,
       type: 2}

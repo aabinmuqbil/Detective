@@ -51,7 +51,7 @@ public class GameStartMenu : MonoBehaviour
             f++;
         }
 
-        SceneManager.LoadScene("MansourScene");
+        SceneManager.LoadScene("TestAbdullah");
 
 
     }
