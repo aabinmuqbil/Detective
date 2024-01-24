@@ -1348,6 +1348,7 @@ MonoBehaviour:
   - {fileID: 292661999}
   - {fileID: 1362835657}
   - {fileID: 1061528878}
+  - {fileID: 1178739937}
 --- !u!1001 &520478142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4391,6 +4392,7 @@ MonoBehaviour:
   - {fileID: 526879990}
   - {fileID: 853952446}
   - {fileID: 1480237266}
+  - {fileID: 849249111}
 --- !u!114 &2039959708 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6312843408166540799, guid: 6f1a1cccc41636c438d6741fb54e2f3b,
