@@ -962,7 +962,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: iam her dectorf
+  m_text: iam her doctor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1070,7 +1070,7 @@ PrefabInstance:
     - target: {fileID: 2765723932809273739, guid: 1806af3e0fb687a4180b8f6cc8603a08,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BAbout
+      value: BHow
       objectReference: {fileID: 0}
     - target: {fileID: 2765723932809273739, guid: 1806af3e0fb687a4180b8f6cc8603a08,
         type: 3}
@@ -1260,7 +1260,7 @@ PrefabInstance:
     - target: {fileID: 8001626292108732697, guid: 1806af3e0fb687a4180b8f6cc8603a08,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BHow
+      value: BAbout
       objectReference: {fileID: 0}
     - target: {fileID: 8001626292108732697, guid: 1806af3e0fb687a4180b8f6cc8603a08,
         type: 3}
