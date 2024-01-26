@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1597,8 +1597,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444877844}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 16.42}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1613,11 +1613,11 @@ RectTransform:
   - {fileID: 501252842}
   - {fileID: 167404408}
   - {fileID: 2041948298}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1316763440}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 557.39996, y: 192.6}
+  m_AnchoredPosition: {x: 0, y: -1.897583}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &444877850
@@ -1641,6 +1641,7 @@ MonoBehaviour:
   backButton: {fileID: 1220611867}
   AText: {fileID: 2041948295}
   HText: {fileID: 167404405}
+  TText: {fileID: 0}
   Set: {fileID: 501252841}
   s:
   - {fileID: 501252841}
@@ -3338,7 +3339,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 444877849}
   m_Father: {fileID: 1332961038}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1316763441
@@ -4416,6 +4418,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 1527178392}
   - {fileID: 1227717936}
-  - {fileID: 444877849}
   - {fileID: 463639260}
   - {fileID: 1899297175}
