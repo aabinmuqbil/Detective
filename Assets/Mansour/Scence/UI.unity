@@ -517,6 +517,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8221791560224492954, guid: a3657eee6a95dad48b925808e6843e48,
+        type: 3}
+      propertyPath: m_text
+      value: You have to know what cause the death of victim and who's the offender.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
