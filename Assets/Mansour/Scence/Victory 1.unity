@@ -404,6 +404,7 @@ GameObject:
   - component: {fileID: 347346918}
   - component: {fileID: 347346920}
   - component: {fileID: 347346919}
+  - component: {fileID: 347346921}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -450,10 +451,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You win
+  m_text: "\u0644\u0642\u062F \u0623\u062E\u062A\u0631\u062A \u0627\u0644\u0645\u062C\u0631\u0645
+    \u0635\u062D"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 954c9360217805743be9ca8c14f6d679, type: 2}
+  m_sharedMaterial: {fileID: -7608094640386419737, guid: 954c9360217805743be9ca8c14f6d679,
+    type: 2}
   m_fontSharedMaterials:
   - {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontMaterial: {fileID: 0}
@@ -478,8 +481,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -528,6 +531,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347346917}
   m_CullTransparentMesh: 1
+--- !u!114 &347346921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347346917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80172e7093d66a24a9c280683dbfd615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixedText: 
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1001 &360381065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -618,6 +636,7 @@ GameObject:
   - component: {fileID: 451299783}
   - component: {fileID: 451299785}
   - component: {fileID: 451299784}
+  - component: {fileID: 451299786}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -664,10 +683,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back to main
+  m_text: "\u0631\u062C\u0639 \u0644\u0644\u0642\u0627\u0626\u0645\u0629"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 954c9360217805743be9ca8c14f6d679, type: 2}
+  m_sharedMaterial: {fileID: -7608094640386419737, guid: 954c9360217805743be9ca8c14f6d679,
+    type: 2}
   m_fontSharedMaterials:
   - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
@@ -742,6 +762,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451299782}
   m_CullTransparentMesh: 1
+--- !u!114 &451299786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451299782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80172e7093d66a24a9c280683dbfd615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixedText: 
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &567379473
 GameObject:
   m_ObjectHideFlags: 0
