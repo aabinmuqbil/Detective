@@ -20,12 +20,37 @@ MonoBehaviour:
     isPrivate: 1
     createdAt: 2024-01-23T08:28:55-0800
     trainingStatus: 1
-    lastTrainDuration: 0
-    lastTrainedAt: 1969-12-31T16:00:00-0800
-    nextTrainAt: 1969-12-31T16:00:00-0800
-    intents: []
-    entities: []
-    traits: []
+    lastTrainDuration: 81
+    lastTrainedAt: 2024-01-31T08:36:54-0800
+    nextTrainAt: 2024-01-31T08:35:33-0800
+    intents:
+    - id: 767408468090955
+      name: Create_Shape
+      entities:
+      - name: Shape:Shape
+        id: 688799196662202
+    entities:
+    - name: Shape
+      id: 690675899895094
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: Shape
+        id: 688799196662202
+      keywords:
+      - keyword: cube
+        synonyms:
+        - cube
+        - cubee
+      - keyword: shpere
+        synonyms:
+        - shpere
+        - spheere
+    traits:
+    - name: Cube
+      id: 705554201748040
+      values: []
     versionTags: []
     voices:
     - name: wit$Rebecca
